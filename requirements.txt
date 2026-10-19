@@ -1,0 +1,9 @@
+pandas
+tqdm
+google-cloud-dlp
+google-auth
+requests
+pandas-gbq
+spacy
+medspacy
+transformers

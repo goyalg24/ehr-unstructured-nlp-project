@@ -3,7 +3,7 @@ import re
 import os
 
 # === File paths ===
-input_file = "data/deid_notes/deidentified/deidentified_notes.csv"
+input_file = "data/deidentified/deidentified_notes.csv"
 output_file = "outputs/ner_entities_regex.csv"
 
 # === Load de-identified notes ===

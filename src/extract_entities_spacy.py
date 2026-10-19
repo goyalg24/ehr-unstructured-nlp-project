@@ -6,7 +6,7 @@ import pandas as pd
 nlp = spacy.load("en_core_web_sm")
 
 # === Define file paths ===
-input_csv = "deidentified/deidentified_notes.csv"
+input_csv = "data/deidentified/deidentified_notes.csv"
 output_dir = "output/entities_spacy"
 os.makedirs(output_dir, exist_ok=True)
 

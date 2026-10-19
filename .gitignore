@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files and credentials (never commit service account keys)
+.env
+.env.*
+!.env.example
+credentials/
+
+# Local pipeline data (FHIR bundles, structured/unstructured/de-identified notes)
+data/
+
+# Generated entity outputs
+outputs/
+output/entities_spacy/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
